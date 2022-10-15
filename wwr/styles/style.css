@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +8,9 @@
 nav a {
     text-align: center;
     color: #caf0f8;
+    font-family: Poppins, Helvetica, sans-serif;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, hero-msg h4 {
@@ -27,6 +31,12 @@ main section {
 
 body {
     background-color: #caf0f8;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -38,36 +48,72 @@ nav a:hover {
     color: #03045e;
 }
 
-.book, .join {
+.book {
+    background-color: #03045e;
+    color: #caf0f8;
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.join {
     background-color: #caf0f8;
     color: #03045e;
     text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, .join:hover {
+.book:hover {
     background-color: #00b4d8;
     color: #caf0f8;
 }
 
+.join:hover {
+    background-color: #03045e;
+    color: #caf0f8;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
     background-color: #00b4d8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #03045e;
+    font-family: "Amatic SC", "Brush Script MT", sans-serif;
+    font-size: 2em;
 }
 
 .msg p {
     color: #03045e;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #00b4d8;
     color: #caf0f8;
+    font-family: Poppins, Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
     font-size: 1.2em;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
 footer p a:hover {
@@ -75,12 +121,29 @@ footer p a:hover {
 }
 
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: #03045e;
+    font-family: "Amatic SC", "Brush Script MT", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.card-img {
+    border: 10px solid #0077b6;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 h4 {
+    text-align: center;
     color: #03045e;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
 footer a {
@@ -96,8 +159,13 @@ footer a:hover {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
