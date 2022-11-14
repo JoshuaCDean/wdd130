@@ -266,7 +266,7 @@ footer a:hover {
 }
 
 .rates-grid {
-    background-color: #0077b6;
+    background-color: #00b4d8;
     color:#caf0f8;
 }
 
@@ -369,7 +369,7 @@ footer a:hover {
     }
     
     .rates-grid {
-        background-color: #0077b6;
+        background-color: #00b4d8;
         color:#caf0f8;
         
     }
@@ -380,7 +380,6 @@ footer a:hover {
     }
     
     .rates-piece-head {
-        float: center;
         text-align: center;
     }
     
@@ -396,12 +395,10 @@ footer a:hover {
     
     
     .rates-piece-head-2 {
-        float: center;
         text-align: center;
     }
     
     .rates-piece-head-3 {
-        float: center;
         padding: 20px;
     }
     
